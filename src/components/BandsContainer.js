@@ -16,13 +16,6 @@ class BandsContainer extends Component {
   }
 }
 
-const mapStateToProps = ({ reviews }) => ({ reviews });
-
-const mapDispatchToProps = (dispatch) => ({
-  addReview: (restaurant) => dispatch({ type: 'ADD_REVIEW', review }),
-  deleteReview: id => dispatch({ type: 'DELETE_REVIEW', id})
-})
-
 const mapStateToProps = ({ bands }) => ({ bands })
 
 const mapDispatchToProps = dispatch => ({
